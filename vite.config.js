@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/testvite/',
 })
 
-// 1. base: дегенди кошуп ал жерге папканын атын беребис /project-name/
+// 1. base: дегенди кошуп ал жерге папканын атын беребис /repositories-name/
 // 2. "deploy": "gh-pages -d dist" ушуну package.json догу script ке кошобус
 // 3. touch deploy.sh ушуну терминалка жазабыс
 // 4. ушунун баарын deploy.sh ичине жазабыс жазабыс
@@ -40,7 +40,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:roymansoor/deploy-vite.git main:gh-pages
+# git push -f git@github.com:`user-name`/`repositories-name`.git main:gh-pages
 
 cd -
 
